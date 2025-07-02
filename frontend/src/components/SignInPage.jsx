@@ -35,8 +35,23 @@ export default function SignInPage() {
         <Box sx={{ flex: 1.2, p: 5 }}>
           <Typography variant="h4" gutterBottom>Sign in</Typography>
           <Box sx={{ display: 'flex', gap: 2, mb: 3 }}>
-            <Button variant="outlined" sx={{color:'black'}} onClick={handleGoogleLogin} fullWidth startIcon={<Google />}></Button>
-            <Button variant="outlined" sx={{color:'black'}} fullWidth startIcon={<Apple />}></Button>
+            <Button
+              variant="outlined"
+              sx={{ color: 'black' }}
+              onClick={handleGoogleLogin}
+              fullWidth
+              startIcon={<Google />}
+            >
+              Google
+            </Button>
+            <Button
+              variant="outlined"
+              sx={{ color: 'black' }}
+              fullWidth
+              startIcon={<Apple />}
+            >
+              Apple
+            </Button>
           </Box>
 
           <Divider sx={{ mb: 3 }}>or continue with email address</Divider>
