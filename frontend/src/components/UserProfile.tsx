@@ -35,7 +35,7 @@ const UserProfile: React.FC = () => {
 
   
   if (error) return <p>Error: {error}</p>;
-  console.log(user);
+  // console.log(user);
   
 
   if (!user) return <p>Loading...</p>;
