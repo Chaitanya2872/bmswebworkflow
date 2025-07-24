@@ -140,6 +140,7 @@ const PricingPlans = () => {
 
   return (
     <div className="pricing-section">
+      <p className="cls">Pricing</p>
       <h1 className="title">Find The Perfect Plan For Your Business</h1>
       <p className="subtitle">
         Unlock the power of AI-driven conversations with pricing plans designed
